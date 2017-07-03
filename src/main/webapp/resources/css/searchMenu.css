@@ -1,0 +1,145 @@
+@CHARSET "UTF-8";
+
+body{
+  background:#eff3f6;
+}
+
+.box.Search
+{
+	height:455px;
+    width:332px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-130px 0 40px -166px;
+	
+}
+.boxBody
+{
+    background:#E6E6FA;
+    border-top:2px solid #5AAAFA;
+    border-bottom:2px solid #5AAAFA;
+    padding:10px 20px;
+}
+
+.box footer{
+    background:#C5EAFC;			/*#eff4f6*/
+    border-top:1px solid #fff;
+    padding:22px 26px;
+    overflow:hidden;
+	height:32px;
+}
+
+footer#main{
+	position:fixed;
+	left:0;
+	bottom:10px;
+	text-align:center;
+	font:normal 11px/16px Arial, Helvetica, sans-serif;
+	width:100%;
+}
+
+.wrapper{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.header{
+	background: #7388FF;
+	min-height: 150px;	
+}
+
+.menu{
+	background: #68EDA6;
+	height: 50px;
+}
+
+.menu ul li{
+	display: inline;
+	line-height: 50px;
+	margin-right: 20px;
+}
+
+.menu ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.content{
+	background: fixed url("java/fon.jpg") no-repeat;
+	background-size: 120%;
+	/*margin: 20px;*/
+}
+
+.content p{	
+
+	overflow: hidden;
+}
+
+
+.content h2{
+	clear: both;
+}
+
+.footer{
+	background: #96FAA2;
+	height: 30px;
+}
+
+.welcome{
+	overflow: hidden;
+}
+
+.welcome .item{
+	width: 30%;
+	text-align: center;
+	float: left;
+	margin-right: 3%;
+}
+
+.welcome .item img{
+	width: 100px;
+	
+}
+.welcome img{
+	width: 70px;
+}
+
+strong{
+	font-size: 40px;
+}
+
+
+.knopka01 {
+  display: inline-block;
+  width: 295px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(255,255,255,.2), 0 -1px rgba(0,0,0,.8);
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  background: rgb(28,107,114) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
+  box-shadow: inset rgba(0,0,0,.6) 0 -2px 5px, inset rgba(252,255,255,.7) 0 2px 5px, rgba(0,0,0,.8) 0 2px 5px -1px;
+  color: rgb(0,79,86);
+
+} 
+.knopka01:hover {
+	font:bold 11px/14px Verdana, Tahomma, Geneva;
+    cursor: pointer;
+  color: rgb(0,59,66);
+}
+.knopka01:active {
+	    text-shadow:rgba(0,0,0,0.2) 0 1px 0px; 
+	cursor:pointer;
+  padding-bottom: 1px;
+  box-shadow:
+   inset rgba(0,0,0,1) 0 1px 3px,
+   inset rgba(0,0,0,.6) 0 -2px 5px,
+   inset rgba(252,255,255,.7) 0 2px 5px,
+   0 1px rgba(255,255,255,.08);
+  color: rgb(128,207,214);
+}

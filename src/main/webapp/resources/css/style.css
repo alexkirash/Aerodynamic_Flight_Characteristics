@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+
+
+body ul, ol, p, h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;	
+	
+}
+
+div{
+	/*border: 1px solid black;*/
+}
+
+.wrapper{
+	width: 1024px;
+	margin: 0 auto;
+	/*background:#68EDA6;*/
+}
+
+.header{
+	background: #7388FF;
+	min-height: 150px;	
+}
+
+.menu{
+	background: #68EDA6;
+	height: 50px;
+}
+/*
+.menu ul li{
+	display: inline;
+	line-height: 50px;
+	margin-right: 20px;
+}
+.menu ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+*/
+/*background: fixed url("${pageContext.request.contextPath}resources/images/head.jpg") no-repeat;
+	background-image: url(resources/images/head.jpg)
+	background-size: 120%;
+	background-repeat:no-repeat;
+	*/
+	
+.content{
+	background:transparent url(../images/22.jpg) no-repeat bottom center;
+
+	background-size: 100%;
+	/*margin: 20px;*/
+}
+
+.content img{
+	width: 200px;
+
+	float: left;
+}
+
+.content p{	
+	clear: both;
+	
+}
+
+
+.content h2{
+	text-align: center;
+	overflow: hiden;
+}
+
+.footer{
+	background: #7388FF;
+	height: 30px;
+}
+
+.welcome{
+	overflow: hidden;
+}
+
+.welcome .item{
+	width: 30%;
+	text-align: center;
+	float: left;
+	/*margin-right: 3%;*/
+}
+
+.welcome .item img{
+	width: 100px;
+	
+}
+.welcome img{
+	width: 70px;
+}
+
+strong{
+	font-size: 40px;
+}
